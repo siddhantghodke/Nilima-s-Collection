@@ -28,6 +28,10 @@ app.use(PUBLIC_URL_PREFIX, express.static(UPLOADS_DIR))
 // Serve legacy product images at /uploads/*
 app.use('/uploads', express.static(LEGACY_UPLOADS_DIR))
 
+app.get('/', (req, res) => {
+  res.send("Nilima's Collection API is running successfully!")
+})
+
 // ── Auth ──────────────────────────────────────────────────────────────────────
 
 app.post('/api/auth/login', (req, res) => {

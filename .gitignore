@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.local
+server/products.db
+server/products.db-*
+server/uploads
+public/uploads/products
+.env

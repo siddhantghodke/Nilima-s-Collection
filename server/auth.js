@@ -1,6 +1,6 @@
 import crypto from 'crypto'
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'artisan'
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD
 const sessions = new Map()
 const SESSION_TTL_MS = 8 * 60 * 60 * 1000
 
@@ -11,6 +11,10 @@ export function createSession() {
 }
 
 export function verifyPassword(password) {
+  if (!ADMIN_PASSWORD) {
+    console.error('ERROR: ADMIN_PASSWORD environment variable is not set on the server.')
+    return false
+  }
   return password === ADMIN_PASSWORD
 }
 

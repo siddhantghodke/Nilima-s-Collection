@@ -1,6 +1,6 @@
-# THE ARTISAN COLLECTION — Architecture
+# NILIMA'S COLLECTION — Architecture
 
-A full-stack product catalogue for a premium handcrafted jewelry store. The frontend is a React + Tailwind SPA; the backend is a modular Node.js/Express API backed by SQLite with a Sharp image-processing pipeline.
+A full-stack product catalogue for a premium handcrafted jewelry store. The frontend is a React + Tailwind SPA; the backend is a modular Node.js/Express API backed by Supabase with a Sharp image-processing pipeline.
 
 ---
 
@@ -70,7 +70,7 @@ A full-stack product catalogue for a premium handcrafted jewelry store. The fron
 ### UI Requirements
 
 1. **Layout & Grid**
-   - Sticky header: "THE ARTISAN COLLECTION" + "Handcrafted Beadwork & Jewelry"
+   - Sticky header: "NILIMA'S COLLECTION" + "Handcrafted Beadwork & Jewelry"
    - Responsive product grid with card hover lift and shadow transitions
 
 2. **Product Cards**

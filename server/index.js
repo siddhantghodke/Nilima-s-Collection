@@ -1,5 +1,5 @@
 /**
- * Express API server for THE ARTISAN COLLECTION catalogue.
+ * Express API server for NILIMA'S COLLECTION catalogue.
  */
 
 import 'dotenv/config'

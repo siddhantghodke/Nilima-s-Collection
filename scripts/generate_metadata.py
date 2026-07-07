@@ -28,7 +28,7 @@ def get_gemini_client():
 def build_prompt():
     return (
         "You are an assistant cataloging handmade beaded products for a premium handicraft collection "
-        "('The Artisan Collection'). The store currently specializes in 'Toran' (traditional door hangings) "
+        "('Nilima's Collection'). The store currently specializes in 'Toran' (traditional door hangings) "
         "and 'Table Mats' (beaded table mats, coasters, etc.).\n\n"
         "Analyze this image:\n"
         "1. Determine if it is a valid product photo of a Toran or a Table Mat/Coaster.\n"
